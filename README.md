@@ -1,4 +1,4 @@
-Welcome! This repository contains a project I completed for my Files & Databases, which I received approval to share as a portfolio project. 
+Welcome! This repository contains a project I completed for my Files & Databases class, which I received approval to share as a portfolio project. 
 In this project I design and create a MySQL database for the Madrid Metro system.
 You can find my first draft of the schema, ER model diagram, and metadata description in the documentation. It also includes various query and trigger functionality tests using sample data. 
 
