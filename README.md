@@ -4,7 +4,7 @@ You can find my first draft of the schema, ER model diagram, and metadata descri
 
 I decided to organize the database into many separate procedures (essentially functions) that carry out a specific task and update the database accordingly:
 - RegisterNewCustomer(full_name, date_of_birth, zip_code, email, phone_number, student_status, disability_status, family normal discount status, family special discount status). -- Registers a new customer by inserting their data and assigning a unique customer ID.
-- Populate zip codes() -- Generates fake zip codes for all of Madrid (this data was not provided to us, so I used fake ones as a placeholder to show how the database works).
+- Populate zip codes() -- Generates fake zip codes for all of Zone A (this data was not provided to us, so I used fake ones as a placeholder to show how the database works).
 - IssueMonthlyCard(customer_id) -- Generates a new monthly card for a given customer with a starting balance of 12 euros
 - IssueMultiUseCard(customer_id) -- Generates a new multiuse card for a given customer that is valid for 30 days.
 - ReloadMonthlyCard(card_id) -- Reloads a monthly card for a given card and extends validity for 30 days.
